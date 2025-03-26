@@ -33,12 +33,20 @@ This project is a **RESTful API** built using the **Node.js, Express.js & MongoD
     "closingPrice": 200.5
   }
   
-- **Error (Invalid Symbol)**:  
+- Error (Invalid Symbol):  
+  ```json
+   {
+    "error": "Invalid symbol. Symbol not found."
+   }
+
+- Error (dates out of range):  
+  ```json
+   {
+    "message": "Invalid date. Please provide a date between 1 April 2024 and 31 March 2025"
+   }
+
+- Error (missing data):  
   ```json
   {
-    "error": "Invalid symbol. Please provide a valid stock symbol (e.g., TATASTEEL, RELIANCE)."
+    "error": "Stock data not found"
   }
-
-  
-
-
