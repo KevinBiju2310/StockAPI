@@ -50,3 +50,39 @@ This project is a **RESTful API** built using the **Node.js, Express.js & MongoD
   {
     "error": "Stock data not found"
   }
+
+## 📊 **Supported Stock Symbols**
+
+### **Indian Stocks (NSE/BSE)**  
+- **TATASTEEL** - Tata Steel  
+- **RELIANCE** - Reliance Industries  
+- **INFY** - Infosys  
+- **HDFCBANK** - HDFC Bank  
+- **ICICIBANK** - ICICI Bank  
+- **TCS** - Tata Consultancy Services  
+- **LT** - Larsen & Toubro  
+- **BHARTIARTL** - Bharti Airtel  
+- **HINDUNILVR** - Hindustan Unilever  
+- **BAJFINANCE** - Bajaj Finance  
+- **MARUTI** - Maruti Suzuki  
+- **ITC** - ITC Ltd  
+- **AXISBANK** - Axis Bank  
+- **SBIN** - State Bank of India  
+- **ADANIENT** - Adani Enterprises  
+- **COALINDIA** - Coal India Ltd  
+- **ONGC** - Oil & Natural Gas Corporation  
+- **POWERGRID** - Power Grid Corporation of India  
+- **JSWSTEEL** - JSW Steel  
+- **NTPC** - NTPC Ltd  
+
+### **Global Stocks (NASDAQ/NYSE)**  
+- **AAPL** - Apple Inc.  
+- **TSLA** - Tesla Inc.  
+- **GOOGL** - Alphabet Inc. (Google)  
+- **AMZN** - Amazon.com Inc.  
+- **MSFT** - Microsoft Corporation  
+- **BRK.B** - Berkshire Hathaway Inc.  
+- **JPM** - JPMorgan Chase & Co.  
+- **NFLX** - Netflix Inc.  
+- **NVDA** - NVIDIA Corporation  
+- **META** - Meta Platforms Inc. (Facebook)  
