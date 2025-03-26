@@ -21,7 +21,7 @@ This project is a **RESTful API** built using the **Node.js, Express.js & MongoD
 ### `GET /api/stock-price?symbol={symbol}&date={date}`
 
 **Parameters:**
-- `symbol` (string) - Stock symbol (e.g., NSE:TATASTEEL)
+- `symbol` (string) - Stock symbol
 - `date` (string) - Date in YYYY-MM-DD format
 
 **Response:**
@@ -32,3 +32,13 @@ This project is a **RESTful API** built using the **Node.js, Express.js & MongoD
     "date": "2024-04-01",
     "closingPrice": 200.5
   }
+  
+- **Error (Invalid Symbol)**:  
+  ```json
+  {
+    "error": "Invalid symbol. Please provide a valid stock symbol (e.g., TATASTEEL, RELIANCE)."
+  }
+
+  
+
+
